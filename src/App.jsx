@@ -17,10 +17,10 @@ const App = () => {
     <div>
       <Header />
       <MainContent />
-      <WelcomeMessage />
+      {/* <WelcomeMessage />
       <JSXRules />
       <Greeting />
-      <ProductInfo />
+      <ProductInfo /> */}
       <UserList />
       <ProductList />
       <Footer />
