@@ -14,6 +14,9 @@ import ProductList from './components/ProductList';
 import Product from './components/Product';
 import Person from './components/Person';
 import CardChildren from './components/CardChildren';
+import Weather from './components/Weather';
+import UserStatus from './components/UserStatus';
+import Greetings from './components/Greetings';
 
 const App = () => {
   return (
@@ -24,7 +27,7 @@ const App = () => {
       <JSXRules />
       <Greeting />
       <ProductInfo /> */}
-      <UserList />
+      {/* <UserList />
       <ProductList />
       <Person name='Vishnu' age='23'/>
       <Product 
@@ -37,7 +40,10 @@ const App = () => {
         <p>This is the description of Card 2</p></div>
         <div><h1>Card 3</h1>
         <p>This is the description of Card 3</p></div>
-      </CardChildren>
+      </CardChildren> */}
+      <UserStatus isLoggedIn={true} isAdmin={true}/>
+      <Greetings timeOfDay='evening'/>
+      <Weather temp={12}/>
       <Footer />
       
     </div>
