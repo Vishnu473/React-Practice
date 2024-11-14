@@ -17,6 +17,9 @@ import CardChildren from './components/CardChildren';
 import Weather from './components/Weather';
 import UserStatus from './components/UserStatus';
 import Greetings from './components/Greetings';
+import StyleCard from './components/StyleCard';
+import ProfileCard from './components/ProfileCard';
+import IconComponent from './components/IconComponent';
 
 const App = () => {
   return (
@@ -44,6 +47,9 @@ const App = () => {
       <UserStatus isLoggedIn={true} isAdmin={true}/>
       <Greetings timeOfDay='evening'/>
       <Weather temp={12}/>
+      <StyleCard />
+      <ProfileCard />
+      <IconComponent />
       <Footer />
       
     </div>
