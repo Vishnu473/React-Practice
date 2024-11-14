@@ -7,6 +7,7 @@ const UserList = () => {
 
   return (
     <div>
+      <h3>UsersList</h3>
       {users.map(({ id, name, age }) => (
         <ul key={id}>
           <li>Name: {name}</li>

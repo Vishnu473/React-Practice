@@ -11,6 +11,9 @@ import WelcomeMessage from './components/WelcomeMessage';
 import ProductInfo from './components/ProductInfo';
 import UserList from './components/UserList';
 import ProductList from './components/ProductList';
+import Product from './components/Product';
+import Person from './components/Person';
+import CardChildren from './components/CardChildren';
 
 const App = () => {
   return (
@@ -23,7 +26,20 @@ const App = () => {
       <ProductInfo /> */}
       <UserList />
       <ProductList />
+      <Person name='Vishnu' age='23'/>
+      <Product 
+      name='Ring'
+      price='20000'/>
+      <CardChildren>
+        <div><h1>Card 1</h1>
+        <p>This is the description of Card 1</p></div>
+        <div><h1>Card 2</h1>
+        <p>This is the description of Card 2</p></div>
+        <div><h1>Card 3</h1>
+        <p>This is the description of Card 3</p></div>
+      </CardChildren>
       <Footer />
+      
     </div>
   );
 };
