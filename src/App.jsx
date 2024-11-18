@@ -20,6 +20,10 @@ import Greetings from './components/Greetings';
 import StyleCard from './components/StyleCard';
 import ProfileCard from './components/ProfileCard';
 import IconComponent from './components/IconComponent';
+import Counter from './components/Counter';
+import TodoList from './components/TodoList';
+import Profile from './components/Profile';
+import ShoppingList from './components/ShoppingList';
 
 const App = () => {
   return (
@@ -29,8 +33,8 @@ const App = () => {
       {/* <WelcomeMessage />
       <JSXRules />
       <Greeting />
-      <ProductInfo /> */}
-      {/* <UserList />
+      <ProductInfo />
+      <UserList />
       <ProductList />
       <Person name='Vishnu' age='23'/>
       <Product 
@@ -43,13 +47,17 @@ const App = () => {
         <p>This is the description of Card 2</p></div>
         <div><h1>Card 3</h1>
         <p>This is the description of Card 3</p></div>
-      </CardChildren> */}
+      </CardChildren>
       <UserStatus isLoggedIn={true} isAdmin={true}/>
       <Greetings timeOfDay='evening'/>
       <Weather temp={12}/>
       <StyleCard />
       <ProfileCard />
-      <IconComponent />
+      <IconComponent /> */}
+      {/* <Counter/> */}
+      {/* <TodoList /> */}
+      {/* <Profile /> */}
+      <ShoppingList/>
       <Footer />
       
     </div>
