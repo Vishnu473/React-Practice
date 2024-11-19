@@ -28,7 +28,7 @@ import BasicEffect from './components/BasicEffect';
 import CounterEffect from './components/CounterEffect';
 import FetchDataEffect from './components/FetchDataEffect';
 import UserContext from './components/UserContext';
-import UserProvider from './components/UserProvider';
+import UserProfile from './components/UserProfile';
 import UpdateUser from './components/UpdateUser';
 
 const App = () => {
@@ -68,7 +68,7 @@ const App = () => {
       <CounterEffect/>
       <FetchDataEffect /> */}
       <UserContext>
-        <UserProvider/>
+        <UserProfile/>
         <UpdateUser />
       </UserContext>
       <Footer />

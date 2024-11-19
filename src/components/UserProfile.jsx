@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import { userData } from './UserContext'
 
-const UserProvider = () => {
+const UserProfile = () => {
     const { user, setUser } = useContext(userData);
     return (
-        <div><h1>UserProvider</h1>
+        <div><h1>UserProfile</h1>
             {user ? (
                 <p>{user.name} is {user.age} year's old.</p>
             ) : (
@@ -14,4 +14,4 @@ const UserProvider = () => {
     )
 }
 
-export default UserProvider
+export default UserProfile
