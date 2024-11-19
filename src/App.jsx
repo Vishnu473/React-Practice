@@ -30,6 +30,7 @@ import FetchDataEffect from './components/FetchDataEffect';
 import UserContext from './components/UserContext';
 import UserProfile from './components/UserProfile';
 import UpdateUser from './components/UpdateUser';
+import CounterReducer from './components/CounterReducer';
 
 const App = () => {
   return (
@@ -66,11 +67,12 @@ const App = () => {
       <ShoppingList/>
       <BasicEffect /> 
       <CounterEffect/>
-      <FetchDataEffect /> */}
-      <UserContext>
+      <FetchDataEffect />
+       <UserContext>
         <UserProfile/>
         <UpdateUser />
-      </UserContext>
+      </UserContext> */}
+      <CounterReducer/>
       <Footer />
       
     </div>
