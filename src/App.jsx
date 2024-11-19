@@ -27,6 +27,9 @@ import ShoppingList from './components/ShoppingList';
 import BasicEffect from './components/BasicEffect';
 import CounterEffect from './components/CounterEffect';
 import FetchDataEffect from './components/FetchDataEffect';
+import UserContext from './components/UserContext';
+import UserProvider from './components/UserProvider';
+import UpdateUser from './components/UpdateUser';
 
 const App = () => {
   return (
@@ -62,8 +65,12 @@ const App = () => {
       <Profile />
       <ShoppingList/>
       <BasicEffect /> 
-      <CounterEffect/>*/}
-      <FetchDataEffect />
+      <CounterEffect/>
+      <FetchDataEffect /> */}
+      <UserContext>
+        <UserProvider/>
+        <UpdateUser />
+      </UserContext>
       <Footer />
       
     </div>
