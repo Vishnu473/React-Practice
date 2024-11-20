@@ -33,13 +33,16 @@ import UpdateUser from './components/UpdateUser';
 import CounterReducer from './components/CounterReducer';
 import FocusInput from './components/FocusInput';
 import Timer from './components/Timer';
+import Project1 from './BasicProjects/components/Project1';
+import Project2 from './BasicProjects/components/Project2';
 
 const App = () => {
   return (
     <div>
-      <Header />
+      {/* Topic Wise */}
+      {/* <Header />
       <MainContent />
-      {/* <WelcomeMessage />
+      <WelcomeMessage />
       <JSXRules />
       <Greeting />
       <ProductInfo />
@@ -75,10 +78,13 @@ const App = () => {
         <UpdateUser />
       </UserContext>
       <CounterReducer/>
-      <FocusInput /> */}
+      <FocusInput />
       <Timer />
-      <Footer />
+      <Footer /> */}
       
+      {/* Projects */}
+      {/* <Project1 /> */}
+      <Project2 />
     </div>
   );
 };

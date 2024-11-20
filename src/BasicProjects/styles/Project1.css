@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+.heading {
+    font-size: 44px;
+    color: aquamarine;
+    margin: 20px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-value {
+    width: 120px;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid rgb(128, 125, 125);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.btns {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.increment {
+    background-color: green;
+    color: white;
+}
+
+.decrement {
+    background-color: red;
+    color: white;
+}
