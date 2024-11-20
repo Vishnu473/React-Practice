@@ -31,6 +31,8 @@ import UserContext from './components/UserContext';
 import UserProfile from './components/UserProfile';
 import UpdateUser from './components/UpdateUser';
 import CounterReducer from './components/CounterReducer';
+import FocusInput from './components/FocusInput';
+import Timer from './components/Timer';
 
 const App = () => {
   return (
@@ -71,8 +73,10 @@ const App = () => {
        <UserContext>
         <UserProfile/>
         <UpdateUser />
-      </UserContext> */}
+      </UserContext>
       <CounterReducer/>
+      <FocusInput /> */}
+      <Timer />
       <Footer />
       
     </div>
