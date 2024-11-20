@@ -35,6 +35,7 @@ import FocusInput from './components/FocusInput';
 import Timer from './components/Timer';
 import Project1 from './BasicProjects/components/Project1';
 import Project2 from './BasicProjects/components/Project2';
+import Project3 from './BasicProjects/components/Project3';
 
 const App = () => {
   return (
@@ -85,6 +86,7 @@ const App = () => {
       {/* Projects */}
       {/* <Project1 /> */}
       <Project2 />
+      {/* <Project3/> */}
     </div>
   );
 };

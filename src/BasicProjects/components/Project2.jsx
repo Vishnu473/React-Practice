@@ -19,7 +19,7 @@ const Project2 = () => {
         setTodoItem('')
     }
     return (
-        <div className='main-center'>
+        <div className='main'>
             <h1>Project-2 Todo List</h1>
             <div className='todo-container'>
                 <div className='todo-add'>
@@ -29,7 +29,7 @@ const Project2 = () => {
                         placeholder='Enter Todo to add'
                         onChange={(e) => setTodoItem(e.target.value)}
                     />
-                    <button type='add' className='btns' onClick={addTodo}>Add</button>
+                    <button type='add' className='btn' onClick={addTodo}>Add</button>
                 </div>
                 {todos.length > 0 ?
                     <div className='todo-items'>
