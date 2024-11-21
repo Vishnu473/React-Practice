@@ -10,19 +10,28 @@ export const calculatorReducer = (state, action) => {
             let currentVal = parseFloat(state.display)
             switch (action.payload) {
                 case '+/-':
-                    
+                    if(state.operator){
+                        state.secondOperand = currentVal*(-1)
+                    }
+                    else{
+                        state.firstOperand = currentVal*(-1)
+                        state.operator = null
+                    }
                     return{
                         ...state,
-                        firstOperand: currentVal*(-1),
-                        operator: state.operator,
                         display: currentVal * (-1)
                     }
                 case '%':
+                    if(state.operator){
+                        state.secondOperand = currentVal/(100)
+                    }
+                    else{
+                        state.firstOperand = currentVal/(100)
+                        state.operator = null
+                    }
                     return{
                         ...state,
-                        firstOperand: currentVal%(100),
-                        operator: state.operator,
-                        display: currentVal %(100)
+                        display: currentVal /(100)
                     }
                 default:
                     return {
