@@ -17,7 +17,6 @@
     display: flex;
 }
 .meal-container {
-    background-color: antiquewhite;
     height: 85vh;
     display: flex;
     flex-wrap: wrap;

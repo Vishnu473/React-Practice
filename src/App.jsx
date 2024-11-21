@@ -36,6 +36,7 @@ import Timer from './components/Timer';
 import Project1 from './BasicProjects/components/Project1';
 import Project2 from './BasicProjects/components/Project2';
 import Project3 from './BasicProjects/components/Project3';
+import Project4 from './BasicProjects/components/Project4';
 
 const App = () => {
   return (
@@ -86,7 +87,8 @@ const App = () => {
       {/* Projects */}
       {/* <Project1 /> */}
       {/* <Project2 /> */}
-      <Project3/>
+      {/* <Project3/> */}
+      <Project4 />
     </div>
   );
 };
