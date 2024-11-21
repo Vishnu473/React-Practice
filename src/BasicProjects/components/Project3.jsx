@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import useAxion from '../Hooks/useAxion'
 import '../styles/Project3.css'
 import MealCategory from './MealCategory'
+import { IoFastFood } from "react-icons/io5";
 
 const Project3 = () => {
 
@@ -20,11 +21,16 @@ const Project3 = () => {
   };
 
   return (
+    <div className='meal-body'>
+      <div className='meal-nav'>
+        <nav>
+          <h1><IoFastFood fontSize={40}/>Meal Menu Viewer</h1>
+        </nav>
+      </div>
     <div className='meal-main'>
-      <MealCategory className='meal-select-side' onMealCategoryChange={handleCategoryChange} />
-
+    <MealCategory className='meal-select-side' onMealCategoryChange={handleCategoryChange} />
       <div className='meal-content'>
-        <h1 className='meal-heading'>Meal Menu for {selectedCategory}</h1>
+        <p className='meal-heading'>Results for <span className='selected-meal'>{selectedCategory}</span> Menu</p>
         <div className='meal-container'>
 
           {
@@ -40,6 +46,8 @@ const Project3 = () => {
           }
         </div>
       </div>
+    </div>
+
     </div>
   )
 }
